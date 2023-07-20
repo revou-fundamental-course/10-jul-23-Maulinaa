@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+    <h2>Kalkulator BMI</h2>
+    <p>Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu?<br> Yuk, hitung sekarang di BMI Kalkulator.</p>
+    </header>
+
+
+    <main>
+    <div class="input-form">
+        <form id="bmiForm">
+            
+            <label for="gender">Jenis Kelamin:</label><br>
+            <input type="radio" id="pr" name="gender" value="pr">
+            <label for="pr">Perempuan</label><br>
+            <input type="radio" id="lk" name="gender" value="lk">
+            <label for="lk">Laki - Laki</label><br>
+
+            <label for="berat">Berat Badan (kg):</label><br>
+            <input type="number" id="berat" name="berat" required><br>
+
+            <label for="usia">Usia (tahun):</label><br>
+            <input type="number" id="usia" name="usia" required><br>
+
+            <label for="tinggi">Tinggi Badan (cm):</label><br>
+            <input type="number" id="tinggi" name="tinggi" required><br>
+
+            <input type="submit" value="Hitung BMI">
+            <button type="button">Reset</button>
+
+        </form>
+    </div>
+
+    <h3>
+        Keunggulan Fitur : <br>
+    </h3>
+    <p>1. Menghitung BMI</p>
+    
+   
+
+    <h2>HASIL</h2>
+    <div id="result"></div>
+    <div id="result1"></div>
+    <div id="ket"></div>
+    
+    </main>
+
+   <footer>
+    <button>Konsultasi Dokter</button>
+    <button>Konsultasi Dokter</button>
+   </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
