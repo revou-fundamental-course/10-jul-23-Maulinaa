@@ -1,0 +1,16 @@
+.input-form{
+    margin-top: 10px;
+    padding: 5px;
+    background-color:antiquewhite;
+    width: 400px;
+    height: 200px;
+}
+
+#result {
+    margin-top: 10px;
+    padding: 5px;
+    background-color:antiquewhite;
+    width: 400px;
+    height: 200px; 
+
+}
